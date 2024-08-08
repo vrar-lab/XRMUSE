@@ -1,0 +1,4 @@
+id:MaterialBoxP1_Cube
+#main:materialbox
+produced_material:Material1
+playerowner:1

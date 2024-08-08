@@ -1,0 +1,5 @@
+id:Material1
+#main:material
+material_type:1
+#sub:child
+visualizer:SD_MaterialCube

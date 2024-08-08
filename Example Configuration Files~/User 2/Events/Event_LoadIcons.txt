@@ -1,0 +1,4 @@
+id:Event_SpawnLoadIcons;-1
+startcond:LOAD;-1;START
+#main:spawninstantiable
+prefabtype:ScreenLoadIcons

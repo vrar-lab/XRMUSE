@@ -1,0 +1,4 @@
+id:MaterialBoxP2_Sphere
+#main:materialbox
+produced_material:Material3
+playerowner:2

@@ -1,0 +1,4 @@
+id:Event_Timer3;-1
+startcond:TIMELINE;-1;START
+#main:timer
+time:30

@@ -1,0 +1,5 @@
+id:Material2
+#main:material
+material_type:2
+#sub:child
+visualizer:SD_MaterialPyramid

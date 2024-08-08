@@ -1,0 +1,5 @@
+id:Event_StartProduceObjective1;-1
+startcond:TIMELINE;-1;START
+#main:produceobjective
+material:4
+amount:5

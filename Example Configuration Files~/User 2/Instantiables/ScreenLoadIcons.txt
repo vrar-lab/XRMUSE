@@ -1,0 +1,10 @@
+id:ScreenLoadIcons
+#main:screenobjectivesiconload
+ismaterial
+1:ScreenIcons/Cube
+2:ScreenIcons/Pyramid
+3:ScreenIcons/Sphere
+4:ScreenIcons/Capsule
+istool
+1:ScreenIcons/Hammer
+2:ScreenIcons/Wrench

@@ -1,0 +1,4 @@
+id:MaterialBoxP1_Pyramid
+#main:materialbox
+produced_material:Material2
+playerowner:1

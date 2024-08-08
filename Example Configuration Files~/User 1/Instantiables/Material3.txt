@@ -1,0 +1,5 @@
+id:Material3
+#main:material
+material_type:3
+#sub:child
+visualizer:SD_MaterialSphere

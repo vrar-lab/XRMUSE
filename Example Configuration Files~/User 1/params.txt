@@ -1,0 +1,4 @@
+path_instantiables:/Instantiables
+path_stimuli:/Stimuli
+path_events:/Events
+player:1

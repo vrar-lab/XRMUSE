@@ -1,0 +1,5 @@
+id:Material4
+#main:material
+material_type:4
+#sub:child
+visualizer:SD_MaterialCapsule

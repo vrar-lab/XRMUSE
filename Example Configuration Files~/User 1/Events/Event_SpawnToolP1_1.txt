@@ -1,0 +1,6 @@
+id:Event_SpawnToolP1_1;-1
+startcond:TIMELINE;-1;START
+#main:spawnnetworkedinstantiable
+prefabtype:Tool1
+zone:ToolZone1
+owner:1

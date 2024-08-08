@@ -1,0 +1,5 @@
+id:Event_SpawnMatBoxP2_1;-1
+startcond:LOAD;-1;START
+#main:spawninstantiable
+prefabtype:MaterialBoxP2_Pyramid
+zone:MatBoxP2_1

@@ -1,0 +1,6 @@
+id:Tool2
+#main:tool
+tool_type:2
+player_owner:2
+#sub:child
+visualizer:SD_ToolWrench

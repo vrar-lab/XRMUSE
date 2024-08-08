@@ -1,0 +1,6 @@
+id:Tool1
+#main:tool
+tool_type:1
+player_owner:1
+#sub:child
+visualizer:SD_ToolHammer
