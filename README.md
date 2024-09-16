@@ -141,3 +141,14 @@ Dependencies specific to the Meta Quest version
 ## Acknowledgements
 
 This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 964464 (ChronoPilot).
+
+If you use this project, please include the following citation in your publication:
+
+~~~latex
+@article{--BLINDED--,
+  title={{XR-MUSE: An Open-Source Unity Framework for Extended Reality-Based Networked Multi-User Studies}},
+  author={--BLINDED--},
+  journal={--BLINDED--},
+  year={2024}
+}
+~~~
