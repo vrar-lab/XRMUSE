@@ -76,7 +76,7 @@ Dependencies specific to the Meta Quest version
 
 1. Clone or copy this repository into the Assets folder of the Unity project.
 
-1. Open the example scene / `<UnityProject>` / `Assets` / `UniLuVR-packages` / `UniLuVR.ExampleScenario` / `Example Scenes` / `Example Scene for Vive XR Elite`.
+1. Open the example scene / `<UnityProject>` / `Assets` / `XRMUSE.ExampleScene` / `Example Scene` / `Example Scene for Vive XR Elite`.
 
 1. Build the scene into a .apk file and install it onto the headsets. Then launch the application on the headsets to initialize the application's internal storage.
 
@@ -121,7 +121,7 @@ Dependencies specific to the Meta Quest version
 
 1. Clone or copy this repository into the Assets folder of the Unity project.
 
-1. Open the example scene / `<UnityProject>` / `Assets` / `XR_MUSE.ExampleScenario` / `Example Scenes` / `Quest Scene`.
+1. Open the example scene / `<UnityProject>` / `Assets` / `XR_MUSE.ExampleScene` / `Example Scene` / `Quest Scene`.
 
 1. In `Build Settings`, switch the target platform to Android. Build the scene into a .apk file and install it onto the headsets. Then launch the application on the headsets to initialize the application's internal storage.
 
