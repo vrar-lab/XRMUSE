@@ -141,3 +141,19 @@ Dependencies specific to the Meta Quest version
 ## Acknowledgements
 
 This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 964464 (ChronoPilot).
+
+If you use this project in your research, please include the following citation in your publication.
+```
+@article{picard2024xrmuse,
+  author = {Picard, Stéven and Sun, Ningyuan and Botev, Jean},
+  title = {{XR MUSE: An Open-Source Unity Framework for Extended Reality-Based Networked Multi-User Studies}},
+  journal = {Virtual Worlds},
+  volume = {3},
+  year = {2024},
+  number = {4},
+  pages = {404--417},
+  doi = {10.3390/virtualworlds3040022}
+}
+```
+
+
