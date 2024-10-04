@@ -9,20 +9,21 @@
 
 <br>
 
-This repository contains an open-source Unity framework for conducting XR-based user studies on collaborative tasks, providing various ready-to-use components and a demo scene that researchers can easily customize and adapt to their specific needs.
-The framework consists of four Unity packages as summarized in the table below.
+This repository contains an open-source Unity framework for conducting XR-based user studies on collaborative tasks. 
+It provides various ready-to-use components and a demo scene that researchers can easily customize and adapt to their specific needs. 
+The framework comprises four Unity packages, as outlined in the table below.
 
 | Package | Description |
 | --- | --- |
-| `XRMUSE.ExampleScene` | This package provides an example setup, where two users work collaboratively to accomplish an industrial assembly task. The scene is held generic to offer a baseline environment that can be customized for other collaborative activities. |
+| `XRMUSE.ExampleScene` | This package provides an example setup where two users work collaboratively to accomplish an industrial assembly task. The scene is held generic to offer a baseline environment that can be customized for other collaborative activities. |
 | `XRMUSE.Networking` | This package contains a collection of scripts for networking-related functionalities, including server connection, data synchronization, object pooling, networked physics, and more. The scripts are built upon Photon Unity Network and use its free remote server to connect different XR devices. |
-| `XRMUSE.SceneDescription` | This package provides an operation system that allows researchers to describe the environment (e.g., creating certain GameObjects at specific positions, triggering certain events) with text files following a specific syntax. These files are loaded and interpreted by the application to construct the shared environment. |
-| `XRMUSE.Utilities` | This package encapsulates other generic functionalities that do not fit the above-mentioned packages, such as custom collisions and spatial calibration. |
+| `XRMUSE.SceneDescription` | This package provides an operation system that allows researchers to describe the environment (e.g., creating certain GameObjects at specific positions, triggering certain events) with text files following a specific syntax. The application loads and interprets these files to construct the shared environment. |
+| `XRMUSE.Utilities` | This package encapsulates other generic functionalities that do not fit the abovementioned packages, such as custom collisions and spatial calibration. |
 
 ## Requirements
 
 Environment
-- A rectangular table and enough empty space around the table. The table ideally should be least 1 meters long and 0.6 meters wide.
+- A rectangular table with enough space around the table. The table ideally should be at least 1 meter long and 0.6 meters wide.
 
 Hardware
 
@@ -103,10 +104,10 @@ Dependencies specific to the Meta Quest version
 
 1. Set up Photon AppID through the automatic setup wizard. If the wizard did not pop up after importing the Photon PUN2 package, you can open it under `Window` > `PUN Wizard` > `Setup Project`.
 
-1. Go to `Window` > `TextMeshPro`, and click on `Import TMP Essential Resources`.
+1. Go to `Window` > `TextMeshPro`, and click `Import TMP Essential Resources`.
 
 1. In `Project Settings`, go to `XR Plug-in Management` 
-    - Tick `Open XR` the Android tab.
+    - Tick `Open XR` in the Android tab.
     - In the navigation list on the left:
       - Go to `OpenXR`
         - Set `Render Mode` to 'Multi-pass'.
@@ -123,11 +124,11 @@ Dependencies specific to the Meta Quest version
 
 1. Open the example scene / `<UnityProject>` / `Assets` / `XR_MUSE.ExampleScene` / `Example Scene` / `Quest Scene`.
 
-1. In `Build Settings`, switch the target platform to Android. Build the scene into a .apk file and install it onto the headsets. Then launch the application on the headsets to initialize the application's internal storage.
+1. In `Build Settings`, switch the target platform to Android. Build the scene into a .apk file and install it onto the headsets. Then, launch the application on the headsets to initialize the application's internal storage.
 
-1. Quit the application. Copy eveything under / `<UnityProject>` / `Assets` / `Example Configuration Files~` / `User 1` into one headset at / `<HeadsetInternalStorage>` / `Android` / `data` / `<CompanyName>.<ProductName>` / `files`. Then copy everything under / `<UnityProject>` / `Assets` / `Example Configuration Files~` / `User 2` into the other headset at the same path.
+1. Quit the application. Copy everything under / `<UnityProject>` / `Assets` / `Example Configuration Files~` / `User 1` into one headset at / `<HeadsetInternalStorage>` / `Android` / `data` / `<CompanyName>.<ProductName>` / `files`. Then copy everything under / `<UnityProject>` / `Assets` / `Example Configuration Files~` / `User 2` into the other headset at the same path.
 
-1. Launch the application on both headsets and follow the in-app instructions. The spatial calibration for the Quest version differs from the one above for Vive XR Elite. The anchor needs to be manually moved to the table's center using controllers.
+1. Launch the application on both headsets and follow the in-app instructions. The spatial calibration for the Quest version differs from the one above for the Vive XR Elite. The anchor needs to be manually moved to the table's center using controllers.
 
 | Control | Action |
 | --- | --- |
